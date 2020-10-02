@@ -29,22 +29,33 @@
     max-width: 960px;
 }
 
+.nested1 {
+    display: flex;
+    margin-right: 15px;
+    max-width: 33%;
+    flex-direction: column;
+}
+
 .body-image {
     border: solid 1px;
     border-radius: 4px;
-    width: 100%;
-}
-.nested1 {
-    margin-right: 15px;
-    max-width: 33%;
-    align-content: safe center;
+    max-width: 100%;
+    height: auto;
 }
 
 .nested2{
-    min-width: 33%;
+    display: flex;
+    flex-flow: column nowrap;
+    min-width: 66%;
 }
 
 @media (max-width: 1000px) {
     .container {justify-content: center;}
-    .nested1 {flex-direction: row; justify-content: space-evenly; margin-bottom: 15px;}
+    .nested1 {
+        flex: 1 0 auto;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 15px;
+        margin-right: 0px;
+    }
 }
