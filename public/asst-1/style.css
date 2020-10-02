@@ -2,6 +2,30 @@
     background-color: darkblue;
     vertical-align: middle;
     flex-wrap: wrap;
+    width: 150px;
+    margin-bottom: 15px;
+    padding: 15x;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+/*div > h2 + p + ol{
+
+}*/
+
+.container{
+    display: flex;
+}
+
+.wrapper .container > div{
+    flex: 1 0 auto;
+}
+
+div > img ~ p{
+    border-radius: 4px;
 }
 
 
