@@ -12,20 +12,29 @@
     height: auto;
 }
 
-/*div > h2 + p + ol{
+/*it must be 
+.wrapper{
 
 }*/
-
-.container{
-    display: flex;
-}
 
 .wrapper .container > div{
     flex: 1 0 auto;
 }
 
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+
 div > img ~ p{
     border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
 }
 
 
