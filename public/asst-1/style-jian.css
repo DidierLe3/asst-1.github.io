@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    background-color: #13628F;
+    color: #FFD69E;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    flex-flow: row wrap;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 960px;
+}
+
+.body-image {
+    max
+}
+.nested1 {
+    max-width: 33%;
+}
+
+.nested2{
+    min-width: 33%;
+}
+
