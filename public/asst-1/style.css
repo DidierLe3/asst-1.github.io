@@ -12,9 +12,14 @@
     height: auto;
 }
 
-/*div > h2 + p + ol{
+/*it must be 
+.wrapper{
 
 }*/
+
+.wrapper .container > div{
+    flex: 1 0 auto;
+}
 
 .container{
     display: flex;
@@ -24,9 +29,7 @@
     justify-content: space-between;
 }
 
-.wrapper .container > div{
-    flex: 1 0 auto;
-}
+
 
 div > img ~ p{
     border-radius: 4px;
