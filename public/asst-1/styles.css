@@ -3,6 +3,7 @@
     font-family: 'Merriweather', serif;
     
 }
+
 .header {
     display: flex;
     background-color: #13628F;
@@ -13,7 +14,7 @@
     padding: 15px;
     margin-bottom: 15px;
     flex-flow: row wrap;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .wrapper {
@@ -29,6 +30,10 @@
     max-width: 960px;
 }
 
+.container h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .nested1 {
     display: flex;
     margin-right: 15px;
@@ -37,9 +42,9 @@
 }
 
 .body-image {
+    width: 100%;
     border: solid 1px;
-    border-radius: 4px;
-    max-width: 100%;
+    border-radius: 4px;    
     height: auto;
 }
 
